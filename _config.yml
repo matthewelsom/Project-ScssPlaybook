@@ -1,0 +1,26 @@
+# Styleguide settings
+title: SCSS Playbook
+version: 1.0
+keywords: scss, playbook, design, code 
+author: Matthew Elsom
+description: Quickstart scss playbook.
+language: en
+styles: /assets/css/styles.css
+
+# Distribution Settings
+baseurl:
+destination: _site
+
+
+# Jekyll Serve
+port: 4000
+
+# Preprocessor settings
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  
+sass:
+  sass_dir: assets/_scss # Scss location
+  style: :compressed  

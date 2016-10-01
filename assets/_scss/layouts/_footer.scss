@@ -1,0 +1,10 @@
+// Footer Styles
+footer {
+  background: $blue;
+  color: white;
+  padding: $pad * 2;
+  
+  div {
+    @extend .container
+  }
+}
